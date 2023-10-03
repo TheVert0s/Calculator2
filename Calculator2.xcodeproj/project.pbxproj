@@ -14,6 +14,8 @@
 		3F3A58072ACC444100BF5F3A /* Calculator2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A58062ACC444100BF5F3A /* Calculator2Tests.swift */; };
 		3F3A58112ACC444100BF5F3A /* Calculator2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A58102ACC444100BF5F3A /* Calculator2UITests.swift */; };
 		3F3A58132ACC444100BF5F3A /* Calculator2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A58122ACC444100BF5F3A /* Calculator2UITestsLaunchTests.swift */; };
+		3F3A58222ACC49F100BF5F3A /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A58212ACC49F100BF5F3A /* ButtonView.swift */; };
+		3F3A58242ACC4E4900BF5F3A /* Oblicz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A58232ACC4E4900BF5F3A /* Oblicz.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		3F3A580C2ACC444100BF5F3A /* Calculator2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Calculator2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3A58102ACC444100BF5F3A /* Calculator2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator2UITests.swift; sourceTree = "<group>"; };
 		3F3A58122ACC444100BF5F3A /* Calculator2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F3A58212ACC49F100BF5F3A /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		3F3A58232ACC4E4900BF5F3A /* Oblicz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oblicz.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		3F3A57F42ACC443F00BF5F3A /* Calculator2 */ = {
 			isa = PBXGroup;
 			children = (
+				3F3A58232ACC4E4900BF5F3A /* Oblicz.swift */,
+				3F3A58212ACC49F100BF5F3A /* ButtonView.swift */,
 				3F3A57F52ACC443F00BF5F3A /* Calculator2App.swift */,
 				3F3A57F72ACC443F00BF5F3A /* ContentView.swift */,
 				3F3A57F92ACC444100BF5F3A /* Assets.xcassets */,
@@ -259,6 +265,8 @@
 			files = (
 				3F3A57F82ACC443F00BF5F3A /* ContentView.swift in Sources */,
 				3F3A57F62ACC443F00BF5F3A /* Calculator2App.swift in Sources */,
+				3F3A58242ACC4E4900BF5F3A /* Oblicz.swift in Sources */,
+				3F3A58222ACC49F100BF5F3A /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
